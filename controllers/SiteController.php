@@ -13,6 +13,11 @@ class SiteController extends \yii\web\Controller
     }
 
     public function actionIndex() {
-        return $this->render('index');
+        $testimonials = \app\models\Testimonial::find()
+            ->orderBy('RAND()')
+            ->limit(3)
+            ->all();
+
+        return $this->render('index', ['testimonials' => $testimonials]);
     }
 }

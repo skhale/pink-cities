@@ -13,7 +13,7 @@ return [
             'cookieValidationKey' => 'pink-cities'
         ],
         'user' => [
-            'identityClass' => 'App\Models\User',
+            'identityClass' => 'app\models\User',
             'enableAutoLogin' => true
         ],
         'urlManager' => [

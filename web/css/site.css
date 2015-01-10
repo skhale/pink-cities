@@ -1,13 +1,124 @@
-.wrap {
-    height: auto;
-    width: auto;
-    margin: 50px 30px 0 30px;
-    padding: 0;
+.site-nav .navbar-brand {
+	height: auto;
+	padding: 8px 0;
+	margin-right: 70px;
+	margin-left: 15px;
+}
+
+.site-nav {
+	background-image: url("../images/layout/header_bg.gif");
+	background-repeat: repeat-x;
+	background-color: #E4E4E4;
+	background-position: left bottom;
+	margin-bottom: 0;
+	height: 100px;
+	border: none;
+	z-index: 100;
+}
+
+.site-nav .navbar-nav a {
+	color: #676C6C;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	padding: 14px 44px 12px 0;
+}
+
+.site-nav .navbar-nav a:hover {
+	color: #B6044B;
+	background-color: transparent;
+}
+
+.site-nav .tagline {
+	float: left;
+	font-size: 1.75em;
+	margin: 14px 0 5px 0;
+	float: left;
+	font-weight: normal;
+	color: #3E4343;
+}
+
+.site-nav .tagline .city-name {
+	color: #69B1B8;
+}
+
+.site-nav > .container {
+	background-image: url("../images/layout/header_bg_splash.gif");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: right top;
+}
+
+.site-nav .col-xs-12 {
+	min-height: 0;
+}
+
+.site-nav .navbar-toggle .icon-bar {
+	background-color: #B6044B;
+}
+
+.site-nav fieldset {
+	position: relative;
+	left: 70px;
+	top: 29px;
+}
+
+.site-nav fieldset input.input-text {
+	float: left;
+	margin: 0 5px 0 0;
+	width: 123px;
+	font-size: 0.8em;
+	border: 1px solid #C1C1BB;
+	padding: 1px 2px;
 }
 
 .footer {
-    height: 60px;
-    background-color: #f5f5f5;
+    /*background-color: #F5F5F5;*/
     border-top: 1px solid #ddd;
     padding: 20px 30px;
+}
+
+#testimonials {
+	font-size: 0.75em;
+}
+
+#campaign .callout-wrapper {
+	width: 100%;
+	background-color: #3E4343;
+	border-radius: 5px;
+	height: 100%;
+}
+
+#campaign .callout p {
+	font-size: 14px;
+}
+
+#campaign .callout h1 {
+	font-size: 21px;
+}
+
+#secondary .section h2 {
+	font-size: 1.6em;
+}
+
+#secondary li h4 {
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 2px 0 0;
+	display: inline;
+}
+
+#secondary li {
+	font-size: 0.8em;
+}
+
+#secondary .section li {
+	font-size: 0.9em;
+}
+
+@media (min-width: 768px) {
+	.navbar-collapse.in {
+
+	}
 }
