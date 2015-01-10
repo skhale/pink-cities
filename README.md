@@ -1,2 +1,2 @@
-# pink-cities
+# Pink Cities
 Pink Cities Website
